@@ -1,0 +1,121 @@
+:root {
+	--primary-color: #ff7b47;
+	--secondary-color-1: #0d5c63;
+	--secondary-color-2: #17213c;
+	--text-color: #252b42;
+	--second-text-color: #737373;
+	--light-text-color: #fff;
+	--dark-background-color: #252b42;
+	--light-background-color: #fff;
+	--hover-color: #2a7cc7;
+	--disabled-element-color: #8ec2f2;
+	--muted-color: #bdbdbd;
+	--success-color: #2dc071;
+	--alert-color: #e77c40;
+	--danger-color: #e74040;
+    --font-family: "Montserrat", sans-serif;
+    --withtwrapper: 1040px;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: var(--second-text-color);
+}
+
+.FirstScreen {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/mainblock/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+}
+.Wrapper {
+    width: var(--withtwrapper);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.FirstScreen_header {
+    height: 104px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.logo {
+    padding: 10px;
+    width: 187px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0em;
+    color: var(--text-color);
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.nav {
+    width: 320px;
+    height: 24px;
+}
+.nav ul {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+.FirstScreen_text {
+    width: 510px;
+
+}
+.title {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 138%;
+    letter-spacing: 0em;
+    color: var(--text-color);
+    margin-bottom: 35px;
+}
+.subTitle {
+    width: 380px;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 35px; 
+}
+.FirstScreen_btn{
+    display: flex;
+    align-items: center;
+}
+.btnGetQuoteNow {
+    border-radius: 37px;
+    padding: 10px 36px;
+    width: 185px;
+    height: 48px;
+    background: var(--primary-color);
+    color: var(--light-text-color);
+}
+.btnLearnMore {
+    border: 1px solid var(--secondary-color-1);
+    border-radius: 37px;
+    padding: 10px 36px;
+    width: 157px;
+    height: 48px;
+    color: var(--secondary-color-1);
+}
